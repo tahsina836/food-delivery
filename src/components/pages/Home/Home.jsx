@@ -9,7 +9,8 @@ const Home = () => {
     return (
         <div>
             <Header />
-      <ExploreMenu/>
+            <ExploreMenu/>
+     
         </div>
     )
 }

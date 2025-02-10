@@ -8,7 +8,7 @@ const ExploreMenu = () => {
             <h1>Explore Our Menu </h1>
             <p className='explore-menu-text'>Choose from a diverse menu featuring a delecatable array </p>
             <div className="explore-menu-list">
-                {menu_list.map(() => {
+                {menu_list.map((item,index) => {
                     return (<div className="explore-menu-list-item">
                         <img src={item.menu_image} alt="" />
                         <p>{item.menu_name}</p>
