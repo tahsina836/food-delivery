@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Outfit:wght@400;700&family=Poppins:wght@200;300;700&display=swap');
 
 * {
@@ -22,8 +20,19 @@ a {
   width: 80%;
   margin: auto;
 }
-.navbar-right{
+
+.navbar-right {
   display: flex;
   align-items: center;
-  gap:40px;
+  gap: 40px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
